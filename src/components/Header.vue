@@ -102,6 +102,7 @@
         </div>
       
     </div>
+    <img src="../assets/rectangles_blue.png" class=" hidden md:block absolute top-52 -left-4" alt="">
     </div>
   </div>
 </template>
