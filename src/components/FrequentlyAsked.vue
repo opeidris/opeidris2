@@ -37,26 +37,35 @@ import { ChevronDownIcon } from '@heroicons/vue/outline'
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "What do you do in your spare time?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I consume a lot of content. Podcasts, audiobooks, fiction and non-fiction. Though I probably read the most if you put all the reading in one group",
+  },
+  {
+    question: "Then what's your favourite book?",
+    answer:
+      "I used to say The Count of Monte Cristo but I haven't read that in years. Currently it would likely be 'A Million Miles in a Thousand Years' Donald Millers memo on choosing the story your life becomes. It resonated deeply with me",
+  },
+  {
+    question: "Do you really not listen to music?",
+    answer:
+      "I know it's weird especially considering I play the drums. I enjoy music and if it's playing I won't turn it off, but my brain never prompts me to turn it on either.",
+  },
+  {
+    question: "Why do you listen to podcasts on 2.7x speed?",
+    answer:
+      "I had 20-30 hours of podcasts I wanted to listen to each week. Speeding it up allowed me to get through more XD. I started on 1.5 and everytime it felt slow I bumped it up.",
+  },
+  {
+    question: "How was it like living in Saudi Arabia?",
+    answer:
+      "I was school aged so my life was just about school but overall I enjoyed it. That said in hindshight things like them checking under the school bus for bombs everyday was weird.",
   },
   {
     question: "What's the best thing about Switzerland?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "I don't know, but the flag is a big plus. This was a very bad joke",
   },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  // More questions...
 ]
 
 export default {

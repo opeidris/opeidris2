@@ -8,6 +8,13 @@ module.exports = {
       stripePurple: '#635BFF',
       stripeBlue: '#C5F1FF'
     },
+    maxWidth: {
+      '3/5': '60%',
+    },
+    rotate: {
+      '-20' : '-20deg',
+      '20' : '20deg'
+    }
     },
   },
   variants: {
