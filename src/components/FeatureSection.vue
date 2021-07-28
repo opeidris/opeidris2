@@ -11,21 +11,21 @@
       </svg>
 
       <div class="relative">
-        <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          A better way to send money
+        <h2 class="text-center raleway text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          A little bit more about me
         </h2>
-        <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+        <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500 font-light">
+          Obviously you can’t really get to know somebody with just a webpage. So listed below are just the half-time highlights. That said here are some traits I define myself by.
         </p>
       </div>
 
       <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
-          <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-            Transfer funds world-wide
+          <h3 class=" raleway text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+            What makes me, well ... me?
           </h3>
           <p class="mt-3 text-lg text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+            Know thyself and know thy enemy and you will be the victor of 100 battles. I don’t really have any enemies but I’m trying my best to know a little bit about myself. <span class="bold">Here’s why I think I will be a great fit at stripe.</span>
           </p>
 
           <dl class="mt-10 space-y-10">
@@ -34,7 +34,7 @@
                 <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                 </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ item.name }}</p>
+                <p class="ml-16 text-lg leading-6 font-semibold text-gray-900">{{ item.name }}</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
                 {{ item.description }}
@@ -52,7 +52,7 @@
             </defs>
             <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
           </svg>
-          <img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-1.png" alt="" />
+          <img class="relative mx-auto" width="490" src="../assets/ted_stage.png" alt="standing on the TED X Stage" />
         </div>
       </div>
 
@@ -71,28 +71,28 @@
 </template>
 
 <script>
-  import { GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/vue/outline'
+  import { LightningBoltIcon, LightBulbIcon, BookOpenIcon } from '@heroicons/vue/outline'
 
   const transferFeatures = [
     {
       id: 1,
-      name: 'Competitive exchange rates',
+      name: 'A slow thinker',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: GlobeAltIcon,
+        'I know it sounds odd but that’s how I best describe myself. I like to think thrice before speaking and if you present me with an idea I would rather take  a few hours to process before giving my response.',
+      icon: LightBulbIcon,
     },
     {
       id: 2,
-      name: 'No hidden fees',
+      name: 'Extremely Curious',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ScaleIcon,
+        'I am a voracious reader and almost a compulsive learner. Those who know me know that if someone mentions a new topic I am instantly enraptured. I think this is a trait that lead to me being a Curator for TEDxPerth. I see anyone I meet  a new story I was dying to know and put on stage.',
+      icon: BookOpenIcon,
     },
     {
       id: 3,
-      name: 'Transfers are instant',
+      name: 'Action Bias',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Action is better than inaction. Although intentional inaction is also a form of action. The previous sentence went in circles but the point still stands. I am someone who bias’ towards fast paced action while still refusing to compromise on the details.',
       icon: LightningBoltIcon,
     },
   ]

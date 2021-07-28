@@ -28,7 +28,7 @@
             <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
               <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div class="flex items-center justify-between w-full md:w-auto">
-                  <a class=" raleway font-extrabold text-lg lg:text-2xl" href="#">
+                  <a class=" raleway font-extrabold text-lg lg:text-2xl" href="#home">
                     <span class="sr-only">Stripe Plus Ope Idris</span>
                     <span class=" text-stripePurple">stripe</span>plus<span class=" text-red-500">ope</span>idris
                   </a>
@@ -41,11 +41,11 @@
                 </div>
               </div>
               <div class="hidden md:flex md:space-x-10">
-                <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-medium text-gray-500 hover:text-gray-900">{{ item.name }}</a>
+                <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-medium text-xl text-gray-500 hover:text-gray-900">{{ item.name }}</a>
               </div>
               <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span class="inline-flex rounded-md shadow">
-                  <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500">
+                  <a href="#contact" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500">
                     Say Hi :&#41;
                   </a>
                 </span>
@@ -70,7 +70,7 @@
                 <div class="px-2 pt-2 pb-3 space-y-1">
                   <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                 </div>
-                <a href="#" class="block w-full px-5 py-3 text-center font-bold text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700">
+                <a href="#contact" class="block w-full px-5 py-3 text-center font-bold text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700">
                   Say Hi :&#41;
                 </a>
               </div>
@@ -115,10 +115,10 @@ import Plus from '../assets/svg/Plus.svg'
 import HeartIcon from '../assets/svg/Icon.svg'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Who am I?', href: '#' },
-  { name: 'Why Me?', href: '#' },
-  { name: "FAQ's", href: '#' },
+  { name: 'Home', href: '#home' },
+  { name: 'Who am I?', href: '#video' },
+  { name: 'Why Me?', href: '#key-traits' },
+  { name: "FAQ's", href: '#faq' },
 ]
 
 export default {
