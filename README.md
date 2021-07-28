@@ -1,1 +1,1 @@
-# stripe-application
+# Stripe Application
