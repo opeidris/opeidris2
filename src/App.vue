@@ -28,7 +28,8 @@
     </p>
     <div class="pt-6 pb-6 w-9/12 sm:w-8/12 md:w-6/12 lg:w-1/3 xl:w-1/4 flex flex-col items-center bg-gray-50 shadow-2xl mb-16">
       <img class="pr-5" src="./assets/contact_illustration.png" alt="Me Saying Hi">
-      <form action="#" method="POST" name="contact" class=" w-9/12">
+      <form action="#" method="POST" name="contact" class=" w-9/12" data-netlify="true" data-netlify-honeypot="bot-field">
+       <input type="hidden" name="form-name" value="contact" />
         <div>
           <label for="name" class="block text-sm font-medium text-gray-700 railway">Name</label>
             <div class="mt-1">

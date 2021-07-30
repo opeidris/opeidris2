@@ -15,7 +15,7 @@
           A little bit more about me
         </h2>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500 font-light">
-          Obviously you can’t really get to know somebody with just a webpage. So listed below are just the half-time highlights. That said here are some traits I define myself by.
+          Obviously you can’t really get to know somebody with just a webpage. So listed below are just the half-time highlights. That said, here are some traits I define myself by.
         </p>
       </div>
 
@@ -78,14 +78,14 @@
       id: 1,
       name: 'A slow thinker',
       description:
-        'I know it sounds odd but that’s how I best describe myself. I like to think thrice before speaking and if you present me with an idea I would rather take  a few hours to process before giving my response.',
+        'I know it sounds odd but that’s how I best describe myself. I like to think thrice before speaking and if you present me with an idea I would rather take  a few hours to process it before giving my response.',
       icon: LightBulbIcon,
     },
     {
       id: 2,
       name: 'Extremely Curious',
       description:
-        'I am a voracious reader and almost a compulsive learner. Those who know me know that if someone mentions a new topic I am instantly enraptured. I think this is a trait that lead to me being a Curator for TEDxPerth. I see anyone I meet  a new story I was dying to know and put on stage.',
+        'I am a voracious reader and almost a compulsive learner. Those who know me know that if someone mentions a new topic I am instantly enraptured. I think this is a trait that lead to me being a Curator for TEDxPerth. I see anyone I meet as a new story I was dying to know more about and put on  the stage.',
       icon: BookOpenIcon,
     },
     {
