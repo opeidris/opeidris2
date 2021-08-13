@@ -6,7 +6,11 @@ module.exports = {
       colors: {
       darkPurple: '#434870',
       stripePurple: '#635BFF',
-      stripeBlue: '#C5F1FF'
+      stripeBlue: '#C5F1FF',
+      darkest: '#222831',
+			dark: '#393e46',
+			light: '#00adb5',
+			lightest: '#eeeeee',
     },
     maxWidth: {
       '3/5': '60%',
