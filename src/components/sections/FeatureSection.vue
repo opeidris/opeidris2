@@ -25,13 +25,13 @@
             What makes me, well ... me?
           </h3>
           <p class="mt-3 text-lg text-gray-500">
-            Know thyself and know thy enemy and you will be the victor of 100 battles. I don’t really have any enemies but I’m trying my best to know a little bit about myself. <span class="bold">Here’s why I think I will be a great fit at stripe.</span>
+            Know thyself and know thy enemy and you will be the victor of 100 battles. I don’t really have any enemies but I’m trying my best to know a little bit about myself. <span class="bold">Here’s why I think I will be a great fit at {{companyName}}.</span>
           </p>
 
           <dl class="mt-10 space-y-10">
             <div v-for="item in transferFeatures" :key="item.id" class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md text-white" :class="`bg-${textHighLight}`">
                   <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p class="ml-16 text-lg leading-6 font-semibold text-gray-900">{{ item.name }}</p>
@@ -99,6 +99,7 @@
   
   export default {
     name: 'FeatureSection',
+    props: ['companyName', 'textHighLight'],
     setup() {
       return {
         transferFeatures,

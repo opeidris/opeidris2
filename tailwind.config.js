@@ -7,6 +7,8 @@ module.exports = {
       darkPurple: '#434870',
       stripePurple: '#635BFF',
       stripeBlue: '#C5F1FF',
+      stripeHover: '#615AE9',
+      stripeHoverLight: '#DFDDFF',
       darkest: '#222831',
 			dark: '#393e46',
 			light: '#00adb5',

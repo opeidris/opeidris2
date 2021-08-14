@@ -1,0 +1,23 @@
+{
+  "application": [
+    {
+      "name": "Stripe",
+      "companyName": "Stripe",
+      "slug": "stripe",
+      "id": 1,
+      "navLogo": "stripe_application_logo.png",
+      "headerLogo": "header_stripe_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/UPEAwxDqMKQ",
+      "color": {
+        "textHighLight": "stripePurple",
+        "svgFill": "#635BFF",
+        "videoBg": "darkPurple",
+        "lightBg": "stripeBlue",
+        "darkHover": "stripeHover",
+        "lightHover": "stripeHoverLight"
+      }
+
+    }
+    
+  ]
+}
