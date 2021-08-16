@@ -17,7 +17,26 @@
         "lightHover": "stripeHoverLight"
       }
 
+    },
+    {
+      "name": "Email Experts",
+      "companyName": "Email Experts",
+      "slug": "experts",
+      "id": 2,
+      "navLogo": "experts_application_logo.png",
+      "headerLogo": "header_experts_logo_1.png",
+      "videoUrl": "https://www.youtube.com/embed/O-4vGxyHMbg",
+      "color": {
+        "textHighLight": "orange-500",
+        "svgFill": "#FF6600",
+        "videoBg": "orange-800",
+        "lightBg": "orange-300",
+        "darkHover": "orange-700",
+        "lightHover": "orange-100"
+      }
+
     }
     
   ]
 }
+
