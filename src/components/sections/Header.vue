@@ -30,7 +30,7 @@
                 <div class="flex items-center justify-between w-full md:w-auto">
                   <a class=" raleway font-extrabold text-lg lg:text-2xl" href="#home">
                     <span class="sr-only">Logo</span>
-                    <img class=" h-4 lg:h-6" :src="`/src/assets/applications/${slug}/${navLogo}`" alt="Logo">
+                    <img class=" h-4 lg:h-6" :src="`/applications/${slug}/${navLogo}`" alt="Logo">
                   </a>
                   <div class="-mr-2 flex items-center md:hidden">
                     <PopoverButton class="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset" :class="` focus:ring-${color.textHighLight}`">
@@ -87,7 +87,7 @@
                 <path d="M48 16V80M80 48L16 48" :stroke="color.svgFill" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <div class="flex  items-center justify-center transform lg:rotate-20"><img class=" w-2/3 md:w-1/2 lg:w-full" :src="`/src/assets/applications/${slug}/${headerLogo}`" :alt="companyName"></div>
+            <div class="flex  items-center justify-center transform lg:rotate-20"><img class=" w-2/3 md:w-1/2 lg:w-full" :src="`/applications/${slug}/${headerLogo}`" :alt="companyName"></div>
             <div class="h-full flex items-center justify-center order-first lg:order-none"><img src="../../assets/OpeImage.png" alt="Ope Idris"></div>
             <div class=" flex items-center justify-center">
               <span class=" sr-only">Equals</span> 
