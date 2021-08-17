@@ -35,6 +35,24 @@
         "lightHover": "orange-100"
       }
 
+    },
+    {
+      "name": "The Brand Foundry",
+      "companyName": "The Brand Foundry",
+      "slug": "foundry",
+      "id": 3,
+      "navLogo": "foundry_application_logo.png",
+      "headerLogo": "header_foundry_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/X4U5dlV9mqM",
+      "color": {
+        "textHighLight": "foundryPink",
+        "svgFill": "#FF6161",
+        "videoBg": "foundryTeal",
+        "lightBg": "red-300",
+        "darkHover": "red-600",
+        "lightHover": "red-100"
+      }
+
     }
     
   ]
