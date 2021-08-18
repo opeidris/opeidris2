@@ -53,6 +53,24 @@
         "lightHover": "red-100"
       }
 
+    },
+    {
+      "name": "Rewalty",
+      "companyName": "Rewalty",
+      "slug": "rewalty",
+      "id": 4,
+      "navLogo": "header_rewalty_logo.png",
+      "headerLogo": "rewalty_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/3ILRvpwrEd0",
+      "color": {
+        "textHighLight": "orange-500",
+        "svgFill": "#FF6600",
+        "videoBg": "orange-800",
+        "lightBg": "orange-300",
+        "darkHover": "orange-700",
+        "lightHover": "orange-100"
+      }
+
     }
     
   ]
