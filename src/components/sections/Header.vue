@@ -87,7 +87,7 @@
                 <path d="M48 16V80M80 48L16 48" :stroke="color.svgFill" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <div class="flex  items-center justify-center transform lg:rotate-20"><img class=" w-2/3 md:w-1/2 lg:w-full" :src="`/applications/${slug}/${headerLogo}`" :alt="companyName"></div>
+            <div class="flex  items-center justify-center transform lg:rotate-20"><img class=" w-2/3 md:w-1/2 " :src="`/applications/${slug}/${headerLogo}`" :alt="companyName"></div>
             <div class="h-full flex items-center justify-center order-first lg:order-none"><img src="../../assets/OpeImage.png" alt="Ope Idris"></div>
             <div class=" flex items-center justify-center">
               <span class=" sr-only">Equals</span> 

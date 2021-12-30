@@ -54,23 +54,22 @@
       }
 
     },
-    {
-      "name": "Rewalty",
-      "companyName": "Rewalty",
-      "slug": "rewalty",
+     {
+      "name": "KLIM",
+      "companyName": "KLIM Technologies",
+      "slug": "klim",
       "id": 4,
-      "navLogo": "header_rewalty_logo.png",
-      "headerLogo": "rewalty_logo.png",
-      "videoUrl": "https://www.youtube.com/embed/3ILRvpwrEd0",
+      "navLogo": "header_klim_logo.png",
+      "headerLogo": "klim_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/kmJCCYSFa0I",
       "color": {
-        "textHighLight": "orange-500",
-        "svgFill": "#FF6600",
-        "videoBg": "orange-800",
-        "lightBg": "orange-300",
-        "darkHover": "orange-700",
-        "lightHover": "orange-100"
+        "textHighLight": "klimBlue",
+        "svgFill": "#20548F",
+        "videoBg": "blue-800",
+        "lightBg": "blue-300",
+        "darkHover": "blue-700",
+        "lightHover": "blue-100"
       }
-
     }
     
   ]

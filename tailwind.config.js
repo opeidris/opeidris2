@@ -16,6 +16,7 @@ module.exports = {
       'orange-800': '#9A3412',
       'foundryPink': '#FF6161',
       'foundryTeal': '#05B3B3',
+      'klimBlue': '#20548F',
       darkest: '#222831',
 			dark: '#393e46',
 			light: '#00adb5',
