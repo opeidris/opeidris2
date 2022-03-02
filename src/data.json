@@ -70,6 +70,23 @@
         "darkHover": "blue-700",
         "lightHover": "blue-100"
       }
+    },
+     {
+      "name": "Envited",
+      "companyName": "Envited",
+      "slug": "envited",
+      "id": 5,
+      "navLogo": "header_envited_logo.png",
+      "headerLogo": "envited_logo_1.png",
+      "videoUrl": "https://www.youtube.com/embed/-c_yaYd5fPc",
+      "color": {
+        "textHighLight": "purple-600",
+        "svgFill": "#7c3aed",
+        "videoBg": "purple-800",
+        "lightBg": "purple-300",
+        "darkHover": "purple-700",
+        "lightHover": "purple-100"
+      }
     }
     
   ]
