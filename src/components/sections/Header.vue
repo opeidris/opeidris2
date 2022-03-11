@@ -45,7 +45,7 @@
               </div>
               <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span class="inline-flex rounded-md shadow">
-                  <a href="#contact" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500" :class="`text-${color.textHighLight} hover:text-${color.darkHover}`">
+                  <a href="#contact" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md  bg-white " :class="`text-${color.textHighLight} hover:text-${color.darkHover}`">
                     Say Hi :&#41;
                   </a>
                 </span>
@@ -70,7 +70,7 @@
                 <div class="px-2 pt-2 pb-3 space-y-1">
                   <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
                 </div>
-                <a href="#contact" class="block w-full px-5 py-3 text-center font-bold text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700" :class="`text-${color.textHighLight} hover:text-${color.darkHover}`">
+                <a href="#contact" class="block w-full px-5 py-3 text-center font-bold  bg-gray-50 hover:bg-gray-100 " :class="`text-${color.textHighLight} hover:text-${color.darkHover}`">
                   Say Hi :&#41;
                 </a>
               </div>

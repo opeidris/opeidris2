@@ -87,6 +87,23 @@
         "darkHover": "purple-700",
         "lightHover": "purple-100"
       }
+    },
+     {
+      "name": "NGIS",
+      "companyName": "NGIS",
+      "slug": "ngis",
+      "id": 6,
+      "navLogo": "header_ngis_logo.png",
+      "headerLogo": "ngis_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/0wg1cza2vKg",
+      "color": {
+        "textHighLight": "green-500",
+        "svgFill": "#10B981",
+        "videoBg": "green-700",
+        "lightBg": "green-200",
+        "darkHover": "green-600",
+        "lightHover": "green-100"
+      }
     }
     
   ]
