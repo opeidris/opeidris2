@@ -121,6 +121,23 @@
         "darkHover": "blue-700",
         "lightHover": "blue-200"
       }
+    },
+     {
+      "name": "Empired",
+      "companyName": "Empired",
+      "slug": "empired",
+      "id": 8,
+      "navLogo": "header_empired_logo.png",
+      "headerLogo": "empired_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/_32M5jfk_GU",
+      "color": {
+        "textHighLight": "yellow-400",
+        "svgFill": "#FBBF24",
+        "videoBg": "yellow-600",
+        "lightBg": "yellow-100",
+        "darkHover": "yellow-500",
+        "lightHover": "yellow-200"
+      }
     }
     
   ]
