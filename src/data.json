@@ -34,48 +34,12 @@
         "darkHover": "orange-700",
         "lightHover": "orange-100"
       }
-
-    },
-    {
-      "name": "The Brand Foundry",
-      "companyName": "The Brand Foundry",
-      "slug": "foundry",
-      "id": 3,
-      "navLogo": "foundry_application_logo.png",
-      "headerLogo": "header_foundry_logo.png",
-      "videoUrl": "https://www.youtube.com/embed/X4U5dlV9mqM",
-      "color": {
-        "textHighLight": "foundryPink",
-        "svgFill": "#FF6161",
-        "videoBg": "foundryTeal",
-        "lightBg": "red-300",
-        "darkHover": "red-600",
-        "lightHover": "red-100"
-      }
-
-    },
-     {
-      "name": "KLIM",
-      "companyName": "KLIM Technologies",
-      "slug": "klim",
-      "id": 4,
-      "navLogo": "header_klim_logo.png",
-      "headerLogo": "klim_logo.png",
-      "videoUrl": "https://www.youtube.com/embed/kmJCCYSFa0I",
-      "color": {
-        "textHighLight": "klimBlue",
-        "svgFill": "#20548F",
-        "videoBg": "blue-800",
-        "lightBg": "blue-300",
-        "darkHover": "blue-700",
-        "lightHover": "blue-100"
-      }
     },
      {
       "name": "Envited",
       "companyName": "Envited",
       "slug": "envited",
-      "id": 5,
+      "id": 3,
       "navLogo": "header_envited_logo.png",
       "headerLogo": "envited_logo_1.png",
       "videoUrl": "https://www.youtube.com/embed/-c_yaYd5fPc",
@@ -92,7 +56,7 @@
       "name": "NGIS",
       "companyName": "NGIS",
       "slug": "ngis",
-      "id": 6,
+      "id": 4,
       "navLogo": "header_ngis_logo.png",
       "headerLogo": "ngis_logo.png",
       "videoUrl": "https://www.youtube.com/embed/0wg1cza2vKg",
@@ -109,7 +73,7 @@
       "name": "Cloud Cartel",
       "companyName": "Cloud Cartel",
       "slug": "cartel",
-      "id": 7,
+      "id": 5,
       "navLogo": "header_cartel_logo.png",
       "headerLogo": "cartel_logo.png",
       "videoUrl": "https://www.youtube.com/embed/MOnu_5pw_lw",
@@ -123,20 +87,37 @@
       }
     },
      {
-      "name": "Empired",
-      "companyName": "Empired",
-      "slug": "empired",
-      "id": 8,
-      "navLogo": "header_empired_logo.png",
-      "headerLogo": "empired_logo.png",
+      "name": "Gathered Here",
+      "companyName": "Gathered Here",
+      "slug": "gathered",
+      "id": 6,
+      "navLogo": "header_gathered_logo.png",
+      "headerLogo": "gathered_logo.jpeg",
       "videoUrl": "https://www.youtube.com/embed/_32M5jfk_GU",
       "color": {
-        "textHighLight": "yellow-400",
-        "svgFill": "#FBBF24",
-        "videoBg": "yellow-600",
-        "lightBg": "yellow-100",
-        "darkHover": "yellow-500",
-        "lightHover": "yellow-200"
+        "textHighLight": "green-500",
+        "svgFill": "#10B981",
+        "videoBg": "green-700",
+        "lightBg": "green-200",
+        "darkHover": "green-600",
+        "lightHover": "green-400"
+      }
+    },
+     {
+      "name": "Gridcognition",
+      "companyName": "Gridcognition",
+      "slug": "grid",
+      "id": 7,
+      "navLogo": "header_grid_logo.png",
+      "headerLogo": "grid_logo.png",
+      "videoUrl": "https://www.youtube.com/embed/_32M5jfk_GU",
+      "color": {
+        "textHighLight": "green-500",
+        "svgFill": "#10B981",
+        "videoBg": "gray-800",
+        "lightBg": "green-200",
+        "darkHover": "green-600",
+        "lightHover": "green-400"
       }
     }
     
